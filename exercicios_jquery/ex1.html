@@ -117,8 +117,25 @@
                 $("#paragrafo2").css({"background-color": "yellow", "color": "red", "font-size": "25px", "padding": "25px"});
             });
 
+            $("#bt26").click(function () {
+                alert($("input").css("width"));
+            });
 
+            $("#bt27").click(function () {
+                alert($("#paragrafo1").css("height"));
+            });
 
+            $("#bt28").click(function () {
+                $(".outro").parent().css("border-style", "dotted");
+            });
+
+            $("#bt29").click(function () {
+                $("span").parents().css("border-style", "solid");
+            });
+
+            $("#bt30").click(function () {
+                $("h1").children().css("border-style", "solid");
+            });
 
 
 
